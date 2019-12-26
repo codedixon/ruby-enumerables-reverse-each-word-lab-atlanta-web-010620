@@ -1,7 +1,7 @@
 def reverse_each_word(string) 
   words = string.split(" ")
   reversed_string = []
-  words.collect{}
+  words.collect{|x| }
   i = 0
   while i < words.length
   reversed_string.push(words[i].reverse)
